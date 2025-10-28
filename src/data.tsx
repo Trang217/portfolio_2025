@@ -16,7 +16,7 @@ export type Skill = {
 
 export type Project = {
   id: string;
-  img: React.ReactNode;
+  img: string;
   url: string;
   github: string;
   title: string;
