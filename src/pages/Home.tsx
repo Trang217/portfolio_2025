@@ -5,6 +5,7 @@ import Skills from "../sections/Skills";
 import About from "../sections/About";
 import Projects from "../sections/Projects";
 import ThemeToggle from "../components/ThemeToggle";
+import StarBackground from "../components/StarBackground";
 
 function Home(): JSX.Element {
   return (
@@ -12,6 +13,7 @@ function Home(): JSX.Element {
       {/* Theme Toggle */}
       <ThemeToggle />
       {/* Background Effect */}
+      <StarBackground />
       {/* Navbar  */}
       <Navbar />
       {/* Main Content */}

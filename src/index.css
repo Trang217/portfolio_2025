@@ -8,10 +8,6 @@
 }
 
 @layer base {
-  :root {
-    @apply bg-emerald-300;
-  }
-
   .dark {
     --background: 222 47% 4%;
   }

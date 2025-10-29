@@ -1,5 +1,6 @@
 import { Moon, Sun } from "lucide-react";
 import { useEffect, useState, type JSX } from "react";
+import { cn } from "../lib/utils";
 
 function ThemeToggle(): JSX.Element {
   const [isDarkMode, setIsDarkMode] = useState<boolean>(false);
@@ -29,7 +30,10 @@ function ThemeToggle(): JSX.Element {
 
   return (
     <button
-      className="absolute right-8 top-8 cursor-pointer"
+      className={cn(
+        "fixed right-8 top-8 cursor-pointer rounded-full transition-colors duration-300",
+        "focus:outline-hidden"
+      )}
       onClick={toggleTheme}
     >
       {isDarkMode ? (
