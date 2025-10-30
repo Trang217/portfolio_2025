@@ -21,7 +21,7 @@ function Home(): JSX.Element {
       <Skills />
       <About />
       <Projects />
-      {/* Footer */}
+      Footer
     </div>
   );
 }

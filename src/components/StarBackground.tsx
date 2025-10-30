@@ -68,6 +68,7 @@ function StarBackground(): JSX.Element {
         const { id, size, x, y, opacity, animationDuration } = star;
         return (
           <div
+            className="star absolute animate-pulse-subtle"
             style={{
               width: size + "px",
               height: size + "px",
@@ -76,7 +77,6 @@ function StarBackground(): JSX.Element {
               opacity: opacity,
               animationDuration: animationDuration + "s",
             }}
-            className="star animate-pulse-subtle"
             key={id}
           ></div>
         );

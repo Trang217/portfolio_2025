@@ -28,6 +28,7 @@ export const links: NavItem[] = [
   { id: nanoid(), href: "#skills", text: "skills" },
   { id: nanoid(), href: "#about", text: "about" },
   { id: nanoid(), href: "#projects", text: "projects" },
+  { id: nanoid(), href: "#contact", text: "contact" },
 ];
 
 export const skills: Skill[] = [
